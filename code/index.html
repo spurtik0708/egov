@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Governance</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<style>
+    .dropbtn {
+      background-color: orangered;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    </style>
+    <link rel="icon" type="image/x-icon" href="images/emblem.png">
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/rename.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://agricoop.nic.in/#gsc.tab=0">AGRICULTURE</a></li>
+                    <li><a href="two.html">DIGITAL PAYMENTS</a></li>
+                    <li><a href="https://financialservices.gov.in/new-initiatives/schemes">FINANCIAL SUPPORT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>India's One Stop</h1>
+            <p>"The future of government services is digital"<br>.</p>
+            <h2>CENTRAL SERVICES</h2>
+            <div class="dropdown">
+                <button class="dropbtn">CENTRAL SERVICES</button>
+                <div class="dropdown-content">
+                  <a href="https://www.irctc.co.in/">Reservation - Indian Railways</a>
+                  <a href="https://www.tin-nsdl.com/">Track status PAN or TAN</a>
+                  <a href="http://passportindia.gov.in/AppOnlineProject/welcomeLink">Online Passport Seva</a>
+                  <a href="	http://www.mca.gov.in/DCAPortalWeb/dca/MyMCALogin.do?method=setDefaultProperty&mode=16">Check Company and its registration</a>
+                  <a href="	http://www.nrega.nic.in/netnrega/home.aspx">Apply Jobs Under MNREGA</a>
+                  <a href="https://resident.uidai.gov.in/">Aadhar Card</a>
+                  <a href="Apply PAN Card Online">Apply PAN </a>
+                </div>
+              </div>
+           
+        </div>
+    </section>
+    <center><strong><h1>Select Your State</h1></strong></center>
+  <center><img src="images/free-colorful-india-map-vector-4glkd.webp" usemap="#image_map">
+    <map name="image_map">
+      <area alt="Telangana" title="Telangana" href="Telangana.html" coords="335,510 335,525 325,546 316,592 318,606 404,578 391,550 367,523 " shape="polygon">
+      <area alt="Andhra Pradesh" title="Andhra Pradesh" href="" coords="307,616 306,636 316,659 335,669 344,683 376,678 382,669 379,653 377,636 382,620 397,611 407,605 424,600 434,586 489,536 417,575 344,612 " shape="polygon">
+      <area alt="Maharashtra" title="Maharashtra" href="" coords="203,509 217,604 318,533 254,473 371,495 304,536 246,467 243,475 231,492 209,509 209,549 217,585 312,530 304,518 296,512 259,475 266,483 272,493 " shape="polygon">
+    </map></center>
+
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>The objective behind the Portal is to provide a single window access to the information and services being provided by the Indian Government for citizens and other stakeholders. An attempt has been made through this Portal to provide comprehensive, accurate, reliable and one stop source of information about India and its various facets. </p>
+        <div class="icons">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        <a href="" class="footer-link"><p> <i class="fa fa-heart-o"></i>Check out our socials</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
