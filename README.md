@@ -1,5 +1,12 @@
 Our project aims to develop a user-friendly government-based website that provides seamless access to information about government schemes, payment details, and registration forms tailored to an individual's specific location. This website will serve as a valuable resource for citizens, enabling them to effortlessly navigate the complexities of government services and benefits.
 
+![image](https://github.com/spurtik0708/egov/assets/118597103/7f3cf28d-b037-4e58-8d75-bf9ffb957c29)
+
+![image](https://github.com/spurtik0708/egov/assets/118597103/85bef3a7-0bbd-4e20-be5d-d15df991e2b4)
+
+![image](https://github.com/spurtik0708/egov/assets/118597103/c5bb27a8-bc3c-4d8a-ae4d-f3e048674b38)
+
+
 Key Features:
 
 Location-Based Services: The website will utilize geolocation technology to identify the user's location automatically. It will then present information related to government schemes and services relevant to that specific area.
